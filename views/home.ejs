@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: white;
+      height: 50px;
+      padding: 0 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    nav li {
+      margin-left: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li a:hover{
+  background-color: #e8e1e5;
+  color: rgb(83, 61, 61);
+  border-radius: 10%;
+}
+button:hover{
+    background-color: black;
+}
+button{
+    background-color: rgb(102, 181, 181);
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://th.bing.com/th/id/OIP.tkoIoLZJSz2vZdKlYUHaeQHaHQ?pid=ImgDet&w=246&h=241&rs=1" alt="Logo">
+      <h2>Logo</h2>
+    </div>
+    <ul>
+        <button>
+      <li><a href="/register">Sign up!!</a></li> </button>
+      <button><li><a href="/login">Login</a></li></button>
+    </ul>
+  </nav>
+  <div class="dashboard">
+    <h1 style="text-align: center;">Dashboard</h1>
+    <p style="text-align: center;">Welcome to your dashboard!</p>
+  </div>
+</body>
+</html>
